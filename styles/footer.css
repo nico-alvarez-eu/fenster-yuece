@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: #333;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 5px;
+}
+
+footer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo > img {
+  height: 50%;
+  max-height: 80px;
+}
+
+.footer-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer-logo {
+  height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  footer > * {
+    margin-bottom: 50px;
+  }
+}
